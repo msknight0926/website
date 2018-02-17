@@ -1,6 +1,9 @@
 
 
-@import 'jekyll-theme-cayman';
+body {
+  background-color: #f5eff5;
+  color: black;
+}
 
 h1 {
   font-family: palantino;
