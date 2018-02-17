@@ -23,9 +23,9 @@ img {
 
 .topnav {
   background-color: slateblue;
-  color: white;
+  color: snow;
   font-family: palantino;
-  font-size: 24px;
+  font-size: 20px;
   position: center;
 }
 
@@ -36,7 +36,7 @@ img {
 
 .topnav a.active {
   background-color: slateblue;
-  color: white;
+  color: snow;
 
 a {
   color: blue;
