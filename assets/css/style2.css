@@ -1,0 +1,33 @@
+body {
+  background-color: #f5eff5;
+  color: black;
+}
+
+h1 {
+  font-family: palantino;
+  font-size: 36px;
+  text-align: right;
+}
+
+p {
+  font-family: palantino;
+  font-size: 18px;
+  text-align: right
+}
+
+img {
+  position: center;
+}
+
+nav {
+  background-color: slateblue;
+  color: white;
+  font-family: palantino;
+  font-size: 24px;
+  position: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
