@@ -22,7 +22,6 @@ img {
 }
 
 nav {
-  background-color: slateblue;
   color: white;
   font-family: palantino;
   font-size: 24px;
@@ -33,4 +32,11 @@ a {
   color: blue;
   text-decoration: underlined;
   font-size: 18px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
