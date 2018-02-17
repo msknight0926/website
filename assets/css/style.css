@@ -22,7 +22,7 @@ img {
 }
 
 .topnav a {
-    float: center;
+    float: right;
     color: white;
     background-color: slateblue;
     text-align: center;
