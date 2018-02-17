@@ -18,7 +18,7 @@ h2 {
 p {
   font-family: palantino;
   font-size: 18px;
-  text-align: right
+  text-align: left
 }
 
 img {
@@ -34,6 +34,6 @@ nav {
 }
 
 a {
-  color: blue;
+  color: white;
   text-decoration: underline;
 }
