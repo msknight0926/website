@@ -28,6 +28,11 @@ img {
   position: center;
 }
 
+.topnav {
+    background-color: slateblue;
+    overflow: hidden;
+}
+
 .topnav a {
     float: none;
     color: white;
