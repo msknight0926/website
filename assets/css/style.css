@@ -12,10 +12,10 @@ h1 {
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto
+  margin-right: auto;
+  width: 50%;
 }
 
 .centerwide {
@@ -23,8 +23,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-}
-    
+}    
 
 p {
   font-family: palantino;
@@ -37,19 +36,19 @@ img {
 }
 
 .topnav {
-    background-color: slateblue;
-    overflow: hidden;
-    padding: 14px 16px;
+  background-color: slateblue;
+  overflow: hidden;
+  padding: 14px 16px;
 }
 
 .topnav a {
-    float: none;
-    color: white;
-    background-color: slateblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
+  float: none;
+  color: white;
+  background-color: slateblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -68,10 +67,10 @@ li {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 object {
