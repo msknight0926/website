@@ -29,6 +29,7 @@ img {
 }
 
 .topnav a {
+    float: none;
     color: white;
     background-color: slateblue;
     text-align: center;
