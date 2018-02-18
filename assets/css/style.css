@@ -18,6 +18,14 @@ h1 {
     width: 50%;
 }
 
+.centerwide {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+    
+
 p {
   font-family: palantino;
   font-size: 20px;
