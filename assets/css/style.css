@@ -31,6 +31,7 @@ img {
 .topnav {
     background-color: slateblue;
     overflow: hidden;
+    padding: 14px 16px;
 }
 
 .topnav a {
