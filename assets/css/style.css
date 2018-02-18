@@ -11,6 +11,13 @@ h1 {
   text-align: center;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 p {
   font-family: palantino;
   font-size: 20px;
