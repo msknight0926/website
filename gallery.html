@@ -9,11 +9,13 @@
     </head>
 
     <body>
+      
       <img src="td279_1.jpg" alt="Tampa Skyline" class="center">
       <svg height="6" width="1263">
         <line x1="0" y1="0" x2="1263" y2="0" style="stroke:rgb(0,0,0);stroke-width:7" />
         Sorry, your browser does not support inline SVG.
       </svg>
+      
       <div class="topnav a">
         <a href="index.html">Home</a>
         <a href="curriculumvitae.html">Curriculum Vitae</a>
@@ -27,10 +29,19 @@
         Sorry, your browser does not support inline SVG.
       </svg>
       
-      <h1>
-        Photo and Video Gallery
-      <h1>  
+      <canvas id="myCanvas" width="300" height="200" style= border:0px;">
+        Your browser does not support the canvas element.
+      </canvas>                                                                 
         
+      <script>
+        var canvas= document.getElementById("myCanvas");
+        var ctx=canvas.getContext("2d");
+        ctx.font="50px Ariel";
+        ctx.fillStyle = "black";
+        ctx.fillText("Photo and Video Gallery", 
+        canvas.width/2, canvas.height/2);
+      </script>   
+                                              
       <video width="400" height="300" controls>
         <source src="IMG_3563.mp4" type="video/mp4">
         <source src="IMG_3563.mov" type="video/mov">
