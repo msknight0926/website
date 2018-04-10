@@ -4,26 +4,27 @@
  
 <h1>JavaScript IPO</h1>
  
-<p>Input:</p>
+<p>Enter Meal Price:</p>
  
 <input id="in">
  
 <button type="button" onclick="myFunction()">Submit</button>
  
 <p id="out"></p>
- 
+
 <script>
 function myFunction() {
-    var inVar, outVar;
+    var num1, num2, outVar;
  
     // Input
-    inVar = document.getElementById("in").value;
+    num1 = parseInt(document.getElementById("in1").value);
+    num2 = parseInt(document.getElementById("in2").value);
    
     // Processing
-    outVar = inVar;
+    sum = num1 + num2;
  
     // Output
-    document.getElementById("out").innerHTML = outVar;
+    document.getElementById("out").innerHTML = sum;
 }
 </script>
  
