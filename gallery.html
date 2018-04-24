@@ -1,40 +1,33 @@
 <!DOCTYPE html>
 
-  <html lang=en>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
 
-    <head>
-      <title>Gallery</title>
-      <link href="assets/css/style.css" type="text/css" rel="stylesheet">
-    </head>
+  <title>Gallery</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-    <body>
-      
-      <img src="td279_1.jpg" alt="Tampa Skyline" class="center">
-      <svg height="6" width="100%">
-        <line x1="0" y1="0" x2="1263" y2="0" style="stroke:rgb(0,0,0);stroke-width:7" />
-        Sorry, your browser does not support inline SVG.
-      </svg>
+<body>
+  <img alt="Tampa Skyline" class="center" src="td279_1.jpg"> <svg height="6" width="100%">
+  <line style="stroke:rgb(0,0,0);stroke-width:7" x1="0" x2="1263" y1="0" y2="0">
+  </line>Sorry, your browser does not support inline SVG.</svg>
 
-      <div class="topnav a">
-        <a href="index.html">Home</a>
-        <a href="curriculumvitae.html">Curriculum Vitae</a>
-        <a href="undergraduatecoursework.html">Undergraduate Coursework</a>
-        <a href="awardsandaccomplishments.html">Awards and Accomplishments</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="accessibility.html">Accessibility</a>
-      </div>
+  <div class="topnav a">
+    <a href="index.html">Home</a> <a href="curriculumvitae.html">Curriculum Vitae</a> <a href="undergraduatecoursework.html">Undergraduate Coursework</a> <a href="awardsandaccomplishments.html">Awards and Accomplishments</a> <a href="gallery.html">Gallery</a> <a href="accessibility.html">Accessibility</a>
+  </div>
+  <svg height="7" width="100%">
+  <line style="stroke:rgb(0,0,0);stroke-width:7" x1="0" x2="1263" y1="0" y2="0">
+  </line>Sorry, your browser does not support inline SVG.</svg>
 
-      <svg height="7" width="100%">
-        <line x1="0" y1="0" x2="1263" y2="0" style="stroke:rgb(0,0,0);stroke-width:7" />
-        Sorry, your browser does not support inline SVG.
-      </svg>
+  <h1>
+  </h1>
 
-      <h1>
-        <canvas id="myCanvas" width="1200" height="100" style= border:0px;">
-          Your browser does not support the canvas element.
-        </canvas>                                                                 
-        <script>
+
+  <canvas height="100" id="myCanvas" style="border:0px;&quot;" width="1200">
+    Your browser does not support the canvas element.
+  </canvas>
+  <script>
           var canvas= document.getElementById("myCanvas");
           var ctx=canvas.getContext("2d");
           ctx.font="36px palantino bold";
@@ -42,69 +35,96 @@
           ctx.textAlign="center";
           ctx.fillText("Photo, Video, and Audio Gallery", 
           canvas.width/2, canvas.height/2);
-        </script>   
-      </h1>
-<div class= "gallery">
-<a target="_blank" href="images/DayattheZoo_0669.jpg">
-<img src="images/DayattheZoo_0669.jpg" alt="Naples Zoo" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Naples Zoo </div>
-<div class= "gallery">
-<a target="_blank" href="images/A0712.jpg">
-<img src="images/A0712.jpg" alt="Black and White Flowers" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Black and White Flowers </div>
-<div class= "gallery">
-<a target="_blank" href="images/111817_Happahatchee_0454.jpg">
-<img src="images/111817_Happahatchee_0454.jpg" alt="Happahatchee Center" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Happahatchee Center </div>
-<div class= "gallery">
-<a target="_blank" href="images/111517_A08_0237MKnight.jpg">
-<img src="images/111517_A08_0237MKnight.jpg" alt="Model at Koreshan Park" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Koreshan Park </div>
-<div class= "gallery">
-<a target="_blank" href="images/DayattheZoo_0563.jpg.jpg">
-<img src="images/DayattheZoo_0563.jpg.jpg" alt="Naples Zoo" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Naples Zoo </div>
-<div class= "gallery">
-<a target="_blank" href="IMG_3563.mp4">
-<video width="400" height="300" align="middle" controls>
-<source src="IMG_3563.mp4" type="video/mp4">
-<source src="IMG_3563.mov" type="video/mov">
-Your browser does not support the video tag.
-</video>
-</a>
-</div>
-<div class="desc"> Cliffs of Moher, Ireland </div>
-<div class= "gallery">
-<a target="_blank" href="images/DayattheZoo_0669.jpg">
-<img src="images/DayattheZoo_0669.jpg" alt="Naples Zoo" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Naples Zoo </div>
-<div class= "gallery">
-<a target="_blank" href="images/DayattheZoo_0669.jpg">
-<img src="images/DayattheZoo_0669.jpg" alt="Naples Zoo" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Naples Zoo </div>
-<div class= "gallery">
-<a target="_blank" href="images/DayattheZoo_0669.jpg">
-<img src="images/DayattheZoo_0669.jpg" alt="Naples Zoo" width="400" height="300" align="middle">
-</a>
-</div>   
-<div class="desc"> Naples Zoo </div>
-<audio controls>
-<source src="04 Anna Sun.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>                                             
+  </script>
+
+  <div class="gallery">
+    <a href="images/DayattheZoo_0669.jpg" target="_blank"><img align="middle" alt="Naples Zoo" height="300" src="images/DayattheZoo_0669.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Naples Zoo
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/A0712.jpg" target="_blank"><img align="middle" alt="Black and White Flowers" height="300" src="images/A0712.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Black and White Flowers
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/111817_Happahatchee_0454.jpg" target="_blank"><img align="middle" alt="Happahatchee Center" height="300" src="images/111817_Happahatchee_0454.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Happahatchee Center
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/111517_A08_0237MKnight.jpg" target="_blank"><img align="middle" alt="Model at Koreshan Park" height="300" src="images/111517_A08_0237MKnight.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Koreshan Park
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/DayattheZoo_0563.jpg.jpg" target="_blank"><img align="middle" alt="Naples Zoo" height="300" src="images/DayattheZoo_0563.jpg.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Naples Zoo
+  </div>
+
+
+  <div class="gallery">
+    <a href="IMG_3563.mp4" target="_blank"><video controls="" height="300" width="400"><source src="IMG_3563.mp4" type="video/mp4"> <source src="IMG_3563.mov" type="video/mov"> Your browser does not support the video tag.</video></a>
+  </div>
+
+
+  <div class="desc">
+    Cliffs of Moher, Ireland
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/DayattheZoo_0669.jpg" target="_blank"><img align="middle" alt="Naples Zoo" height="300" src="images/DayattheZoo_0669.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Naples Zoo
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/DayattheZoo_0669.jpg" target="_blank"><img align="middle" alt="Naples Zoo" height="300" src="images/DayattheZoo_0669.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Naples Zoo
+  </div>
+
+
+  <div class="gallery">
+    <a href="images/DayattheZoo_0669.jpg" target="_blank"><img align="middle" alt="Naples Zoo" height="300" src="images/DayattheZoo_0669.jpg" width="400"></a>
+  </div>
+
+
+  <div class="desc">
+    Naples Zoo
+  </div>
+  <audio controls=""><source src="04%20Anna%20Sun.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
 </body>
 </html>
