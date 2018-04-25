@@ -76,6 +76,7 @@ img {
     border: none;
     outline: none;
     margin: 0;
+    text-decoration: none;
 }
 
 .dropdown {
