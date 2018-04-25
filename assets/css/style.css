@@ -30,6 +30,10 @@ h3 {
   width: 50%;
 }
 
+.left {
+  float: left;
+}
+
 .centerwide {
   display: block;
   margin-left: auto;
