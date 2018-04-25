@@ -11,6 +11,18 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: palantino;
+  font-size: 20px;
+  text-align: right;
+}
+
+h3 {
+  font-family: palantino;
+  font-size: 24px;
+  text-align: center;
+}
+
 .center {
   display: block;
   margin-left: auto;
