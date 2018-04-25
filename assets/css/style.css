@@ -65,7 +65,8 @@ img {
     background-color: slateblue;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: palantino;
     border: none;
     cursor: pointer;
 }
@@ -91,14 +92,14 @@ img {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1,}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: gainsboro;
+    background-color: gainsboro; color: black;
 }
 
 li {
