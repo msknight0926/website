@@ -28,7 +28,8 @@ h1 {
 p {
   font-family: palantino;
   font-size: 20px;
-  text-align: center
+  text-align: center;
+  color: black;
 }
 
 img {
