@@ -74,6 +74,49 @@
   <h3>Caesar Cipher</h3>
   <p>A Caesar Cipher is a shift cipher used in computer cryptography to take a given text input and produce an ecrypted text output.<br>The following caesar cipher will shift your given text three to the right and give you an encrypted text output.</p>
   
+<p>How much do you wish to encrypt your text?</p>
+<input id="shiftnumb" type="number">
+
+<p>Input:</p>
+
+<input id="in">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="out"></p>
+
+<script>
+function myFunction() {
+    var inVar, outVar, inNumb;
+
+    // Input
+    inVar = document.getElementById("in").value;
+    inNumb = document.getElementById("shiftnumb").value;
+    var number= parseInt(inNumb);
+    // Processing
+    
+    outVar = "";
+	var position = 0;
+	while (position < inVar.length) {
+    
+    outVar = outVar + String.fromCharCode(inVar.charCodeAt(position) - number);
+        position = position + 1;
+	}
+
+    
+//    if (inVar.charCodeAt(position) < 65 || inVar.charCodeAt(position) > 90)
+ //   { outVar= outVar + String.fromCharCode(inVar.charCodeAt(position) + number);
+  // position = position +1;
+//    }
+//    else if (inVar.charCodeAt(position)< 78) { outVar = outVar + String.fromCharCode(inVar.charCodeAt(position)+13 + number);
+// position = position + 1}
+ //   else { outVar = outVar + String.fromCharCode(inVar.charCodeAt(position)-13 + number); position = position + 1;}}
+
+
+	// Output
+document.getElementById("out").innerHTML = outVar;
+}
+</script>
   
 </body>
 </html>
