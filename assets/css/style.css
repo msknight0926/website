@@ -43,7 +43,7 @@ img {
 }
 
 .topnav a {
-  float: none;
+  float: left;
   color: white;
   background-color: slateblue;
   text-align: center;
@@ -72,9 +72,18 @@ img {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    float: left;
+    overflow: hidden;
 }
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: slateblue;
+  margin:0;
 
 .dropdown-content {
     display: none;
