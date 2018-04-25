@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Input, Processing, and Output</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+<h1>Contact me!</h1>
+
+<p>Name</p>
+<input type="text" id="name" >
+<p>E-mail</p>
+<input type="text" id="email">
+<p>Subject</p>
+<input type="text" id="subject">
+<br>
+<br>
+<button type="button" onclick="myFunction()">Submit</button>
+
+
+ 
+<p id="out"></p>
+ 
+<script>
+function myFunction() {
+    var inName, outName, inEmail, outEmail, inSubject, outSubject, output;
+ 
+    // Input
+    inName = document.getElementById("name").value;
+     // Processing   
+    if (inName.length == 0) {
+    
+    outName= "Please fill out your name."}
+    else {
+    outName= "Thank you!"}
+    
+        inEmail = document.getElementById("email").value;
+     // Processing   
+    if (inEmail.length == 0) {
+    
+    outEmail= "Please fill out your E-mail."}
+    else {
+    outEmail= "Thank you!"}
+    
+    inSubject = document.getElementById("subject").value;
+     // Processing   
+    if (inSubject.length == 0) {
+    
+    outSubject= "Please fill out why you are contacting me."}
+    else {
+    outSubject= "Thank you!"}
+ 
+
+    // Output
+    document.getElementById("out").innerHTML = outName;
+}
+</script>
+ 
+</body> 
