@@ -55,13 +55,13 @@ and provides an output response. as well as the link to my linkedin profile -->
 
 
   <div class="left"> <!-- I used the div left to have the form float on the left side of the web page. -->
-    <p class="alt">Name</p>
+    <p class="alt">Name:</p>
     <input id="name" type="text">
 
-    <p class="alt">E-mail</p>
+    <p class="alt">E-mail:</p>
     <input id="email" type="text">
 
-    <p class="alt">Subject</p>
+    <p class="alt">Subject:</p>
     <input id="subject" type="text"><br>
     <br>
     <button onclick="myFunction()" type="button">Submit</button>
@@ -69,7 +69,7 @@ and provides an output response. as well as the link to my linkedin profile -->
     <p class="alt" id="out">
     </p>
   </div>
-  
+  <!-- The following javascript does not actually submit the contact information anywhere, still trying to figure that part out. -->
   <script> function myFunction() {
     var inName, inEmail, inSubject, output;
     // Input is provided from the html inputs above. Using the document.getElementById("").value 
