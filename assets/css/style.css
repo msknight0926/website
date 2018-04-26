@@ -59,6 +59,13 @@ p.alt {
   color: black;
 }
 
+p.alt2 {
+  font-family: palantino;
+  font-size: 30px;
+  text-align: left;
+  color: black;
+}
+
 img {
   position: center;
 }
