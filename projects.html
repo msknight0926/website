@@ -92,15 +92,19 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
 
   <p class="alt">How much do you wish to encrypt your text? <br>
   Please choose between values 1 and 26.</p>
- 
-    <input id="shiftnumb" type="number">
+    
+    <div class = "center">
+      <input id="shiftnumb" type="number">
+    </div>
+	
+  <p>Input:</p>
 
-  <p class="alt">Input:</p>
+    <div class= "center">
+      <input id="originaltext"><br>
+      <button onclick="myFunction()" type="button">Submit</button>
+    </div>
 
-    <input id="originaltext"><br>
-    <button onclick="myFunction()" type="button">Submit</button>
-
-  <p class="alt2" id="encryptedtext">
+  <p id="encryptedtext" class="alt2">
   </p>
 	
   <script> function myFunction() {
