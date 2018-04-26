@@ -133,8 +133,9 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
       } else if ((x >= 97) && (x <= 122)) {     
 	cipher = cipher + String.fromCharCode(((x - 97 + number) % 26) + 97);
 	i=i+1;     
-      } else { 
-	cipher = "Error";
+      } else if (x) {
+      cipher= cipher + String.fromCharCode(x);
+      i=i+1;
       }    
     }
     // Output
