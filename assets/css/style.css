@@ -73,12 +73,6 @@ p.alt2 {
   color: black;
 }
 
-/*img class used to center images*/
-
-img {
-  position: center;
-}
-
 /*I did have a top navigation bar at first, but it was later replaced with a similar navigation drop down menu.
 .topnav {
   background-color: slateblue;
@@ -177,7 +171,6 @@ img {
 
 li {
   color: black;
-  text-decoration: underlined;
   font-size: 18px;
 }
 
@@ -245,4 +238,5 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
 
