@@ -1,4 +1,5 @@
-
+/* Montana Knight Final Portfolio 2018 CSS Stylesheet. The following CSS code is used for the formatting of my website.
+I chose to do a light purple background with black font so that it would be easy to read.*/
 
 body {
   background-color: #f5eff5;
@@ -23,6 +24,8 @@ h3 {
   text-align: center;
 }
 
+/* The center class is used for some of the objects so they can be in the middle of the webpage.*/
+
 .center {
   display: block;
   margin-left: auto;
@@ -34,6 +37,8 @@ h3 {
   float: left;
 }
 
+/*Larger than the center element, this will take up more width on the users screen. */
+
 .centerwide {
   display: block;
   margin-left: auto;
@@ -44,6 +49,8 @@ h3 {
 .right {
   float: right;
 }
+
+/*There are three different p classes depending on the text and situation on the webpage. */
 
 p {
   font-family: palantino;
@@ -66,10 +73,13 @@ p.alt2 {
   color: black;
 }
 
+/*img class used to center images*/
+
 img {
   position: center;
 }
 
+/*I did have a top navigation bar at first, but it was later replaced with a similar navigation drop down menu.
 .topnav {
   background-color: slateblue;
   overflow: hidden;
@@ -95,6 +105,10 @@ img {
   background-color: slateblue;
   color: snow;
 }
+
+*/
+
+/*The navigation drop down menu was based off of the one from w3schools.*/
 
 .navbar {
     overflow: hidden;
@@ -159,11 +173,15 @@ img {
     display: block;
 }
 
+/*li used to format list items*/
+
 li {
   color: black;
   text-decoration: underlined;
   font-size: 18px;
 }
+
+/*used to center images.*/
 
 img {
   display: block;
@@ -178,6 +196,9 @@ object {
   margin-right: auto;
   width: 85px;
 }
+
+/*Gallery class was made based off of the one on w3schools. It was used so that photos could be displayed in a more creative way
+with labels and boxes around them as well. */
 
 div.gallery {
     border: 1px solid #ccc;
