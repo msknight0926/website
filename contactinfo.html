@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<!-- Montana Knight COP1500 Final Portfolio Contact Page. This page contains a Javascript contact form that takes input, processes it, 
+and provides an output response. as well as the link to my linkedin profile -->
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -51,7 +54,7 @@
   <h1>Contact me!</h1>
 
 
-  <div class="left">
+  <div class="left"> <!-- I used the div left to have the form float on the left side of the web page. -->
     <p class="alt">Name</p>
     <input id="name" type="text">
 
@@ -69,33 +72,33 @@
   
   <script> function myFunction() {
     var inName, inEmail, inSubject, output;
-    // Input
+    // Input is provided from the html inputs above. Using the document.getElementById("").value 
+    // function javascript is able to use inputted values to be further processed.
     inName = document.getElementById("name").value;
-    // Processing   
-    inEmail = document.getElementById("email").value;
-    // Processing   
+    inEmail = document.getElementById("email").value;  
     inSubject = document.getElementById("subject").value;
-    // Processing   
+    // Processing using an if/else statement. If all of the input boxes are filled out then the output response will be thank you, 
+    // however if any of the inputs have a length of zero (i.e. were not filled out) then the forms output response will be to 
+    // please fill out the whole form.
     if (inSubject.length == 0 || inEmail.length == 0 || inName.length == 0) {
       output = "Please fill out the form in its entirety."
     } else {
       output = "Thank you!"
     }
-    // Output
+    // Output is going to go back to the <p> tag above that has the id="out".
     document.getElementById("out").innerHTML = output;
   } < /script>
 
-  <div class="right">
-    
-    <script src="//platform.linkedin.com/in.js" type="text/javascript">
-    </script> 
-    <script data-format="inline" data-id="https://www.linkedin.com/in/montanaknight" data-related="false" type=
-    "IN/MemberProfile">
-    </script> <a class="twitter-follow-button" data-show-count="false" href=
+  <div class="right"> //I used the div right to have the social media icons float on the opposite side of the webpage, away from the contact form.
+    // linkedin link provided by the linkedin member profile plugin generator.
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/montanaknight" data-format="inline" data-related="false"></script>
+    // twitter link provided by twitter plugin generator.
+    <a class="twitter-follow-button" data-show-count="false" href=
     "https://twitter.com/montybayy?ref_src=twsrc%5Etfw">Follow @montybayy</a>
     <script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
     </script>
-  
+    <!-- instagram link provided by the instagram embed generator -->
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bg7RkwDnarx/"
     data-instgrm-version="8" style=
     " background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:300px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -107,8 +110,7 @@
 
           </div>
         </div>
-
-
+        
         <p style=
         " color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
         <a href="https://www.instagram.com/p/Bg7RkwDnarx/" style=
