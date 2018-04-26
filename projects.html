@@ -112,21 +112,15 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
     var cipher = "";
     var i = 0;
     while (i < inputtext.length) {
-      //  outVar = outVar + String.fromCharCode(inVar.charCodeAt(position) - number);
-      //   position = position + 1;
-      //}
-      // Past used code
+
       var x = inputtext.charCodeAt(i);
-      // if (x < 65 || x > 90) {
-      //  cipher = cipher + String.fromCharCode(x + number);
-      //  i = i + 1;
-      //} else if (x < 78) {
-      //  cipher = cipher + String.fromCharCode(x + 13 + number);
-      //  i = i + 1
-      // } else {
-      //  cipher = cipher + String.fromCharCode(x - 13 + number);
-      // i = i + 1;
-      //}
+	    
+      // The math used --- (((x - 65 + number) % 26) + 65 or + 97) --- for the following code was found online, credits to EvanHahn. 
+      // The formula standardizes the numbers given so that letters at the end of the alphabet
+      // can come back around to the beginning. I added in the else if (x)
+      // so that all spaces and symbols could still be used and not shift over and so that the script wouldn't
+      // crash if it was run with other symbols besides letters.
+	    
       if ((x >= 65) && (x <= 90)) {      
 	cipher = cipher + String.fromCharCode(((x - 65 + number) % 26) + 65);
 	i=i+1;      
@@ -138,7 +132,11 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
       i=i+1;
       }    
     }
-    // Output
+		  
+    // Output is given by the cipher which was built during the while loop. It provides the id for encrypted text and is sent back to the
+    // above paragraph.
+    // Added Note, I did try to use the i++ in the while loop, but it stopped working so I took it back.
+		  
     document.getElementById("encryptedtext").innerHTML = cipher;
   } </script>
   
