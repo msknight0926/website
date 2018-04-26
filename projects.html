@@ -90,7 +90,8 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
   text output.<br>
   The following caesar cipher will shift your given text and give you an encrypted text output.</p>
 
-    <p class="alt">How much do you wish to encrypt your text?</p>
+  <p class="alt">How much do you wish to encrypt your text? <br>
+  Please choose between values 1 and 26.</p>
  
     <input id="shiftnumb" type="number">
 
@@ -115,14 +116,15 @@ my coursework thus far. Still in progress. Here my scratch projects, field repor
       //   position = position + 1;
       //}
       //Past used code
-      if (inputtext.charCodeAt(i) < 65 || inputtext.charCodeAt(i) > 90) {
-        cipher = cipher + String.fromCharCode(inputtext.charCodeAt(i) + number);
+      var x = inputtext.charCodeAt(i);
+      if (x < 65 || x > 90) {
+        cipher = cipher + String.fromCharCode(x + number);
         i = i + 1;
-      } else if (inputtext.charCodeAt(i) < 78) {
-        cipher = cipher + String.fromCharCode(inputtext.charCodeAt(i) + 13 + number);
+      } else if (x < 78) {
+        cipher = cipher + String.fromCharCode(x + 13 + number);
         i = i + 1
       } else {
-        cipher = cipher + String.fromCharCode(inputtext.charCodeAt(i) - 13 + number);
+        cipher = cipher + String.fromCharCode(x - 13 + number);
         i = i + 1;
       }
     }
