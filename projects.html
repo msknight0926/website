@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<!-- Montana Knight COP1500 Final Portfolio Classwork and Projects page. This page showcases classwork, papers, and projects from 
+my coursework thus far. Still in progress. Here my scratch projects, field report, and caesar cipher can be found. -->
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -101,18 +104,18 @@
 	
   <script> function myFunction() {
     var inVar, outVar, inNumb;
-    // Input
+    // Input comes from the above html inputs
     inVar = document.getElementById("in").value;
     inNumb = document.getElementById("shiftnumb").value;
-    var number = parseInt(inNumb);
-    // Processing
+    var number = parseInt(inNumb); //parseInt is used to take a string and create an integer for javascript to use in processing
+    // Processing using a while loop, if and else if statements inside of it.
     outVar = "";
     var position = 0;
     while (position < inVar.length) {
       //  outVar = outVar + String.fromCharCode(inVar.charCodeAt(position) - number);
       //   position = position + 1;
       //}
-      //
+      //Past used code
       if (inVar.charCodeAt(position) < 65 || inVar.charCodeAt(position) > 90) {
         outVar = outVar + String.fromCharCode(inVar.charCodeAt(position) + number);
         position = position + 1;
